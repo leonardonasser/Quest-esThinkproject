@@ -2,7 +2,7 @@ package exercicio4;
 
 public class Metodos {
 
-	public static boolean ProcurarPalavra(String frase, String palavra) {
+	public static boolean procurarPalavra(String frase, String palavra) {
 		String aux;
 		frase = frase + ' ';
 		char charFrase[] = frase.toCharArray();
