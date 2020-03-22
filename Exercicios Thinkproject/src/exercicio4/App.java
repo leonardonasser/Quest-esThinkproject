@@ -2,8 +2,8 @@ package exercicio4;
 
 import java.util.Scanner;
 
-/*4) Faça um programa que leia uma frase e uma palavra. Pesquise a palavra dentro
- *  da frase e informe: ‘Palavra encontrada’ ou ‘Palavra não encontrada’.
+/*4) FaÃ§a um programa que leia uma frase e uma palavra. Pesquise a palavra dentro
+ *  da frase e informe: â€˜Palavra encontradaâ€™ ou â€˜Palavra nÃ£o encontradaâ€™.
  */
 
 public class App {
@@ -19,12 +19,12 @@ public class App {
 		System.out.println("\nDigite a palavra que deseja ser encontrada: ");
 		palavra = ler.nextLine();
 
-		boolean resultado = Metodos.ProcurarPalavra(frase, palavra);
+		boolean resultado = Metodos.procurarPalavra(frase, palavra);
 
 		if (resultado == true) {
 			System.out.println("\nPalavra encontrada");
 		} else {
-			System.out.println("\nPalavra não encontrada");
+			System.out.println("\nPalavra nÃ£o encontrada");
 		}
 
 	}
